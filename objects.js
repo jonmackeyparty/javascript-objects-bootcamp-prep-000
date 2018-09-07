@@ -7,6 +7,6 @@ function updatePlaylist(playlist, artistName, songTitle){
 
 function removeFromPlaylist(playlist, artistName){
    playlist['Phil Ochs']= 'Here/s to the State of Mississippi';
-   delete playlist['']
-  return 
+   delete playlist['Slowdive'];
+  return playlist;
 }
